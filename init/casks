@@ -26,8 +26,16 @@ echo "Installing Firefox"
 cask firefox
 
 echo ""
+echo "Installing Firefox Developer Edition"
+cask firefoxdeveloperedition
+
+echo ""
 echo "Installing Github"
 cask github
+
+echo ""
+echo "Installing GPGTools"
+cask gpgtools
 
 echo ""
 echo "Installing Google Chrome"
@@ -60,6 +68,10 @@ cask skype
 echo ""
 echo "Installing The Unarchiver"
 cask the-unarchiver
+
+echo ""
+echo "Installing Tor Browser"
+cask torbrowser
 
 echo ""
 echo "Installing VLC"
