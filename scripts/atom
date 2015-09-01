@@ -15,10 +15,10 @@ killall Atom
 
 echo "Installing Atom Packages:"
 echo ""
-apm install term2
-apm install jshint
-apm install angularjs
-apm install minimap
+apm angularjs
+apm angularjs-styleguide-snippets
+apm language-nginx
+apm language-puppet
 
 ATOMCONF="$HOME/.atom/config.cson"
 ATOMCSS="$HOME/.atom/styles.less"

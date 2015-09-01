@@ -8,10 +8,13 @@ function cask() {
   fi
 }
 
-
 echo ""
 echo "Installing AppCleaner"
 cask appcleaner
+
+echo ""
+echo "Installing AppCleaner"
+cask atom
 
 echo ""
 echo "Installing Dropbox"
